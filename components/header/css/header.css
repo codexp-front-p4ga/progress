@@ -7,22 +7,45 @@ box-sizing: border-box;
 }
 
 header {
-
+    width: 100%;
     background-color: #00d775;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
     border: none;
+    width: 80%;
 }
 
 .escrita_header {
 
     font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
 
 }
 
 .celular {
 
-    width: 50%;
+    width: 80%;
+    margin-top: 10%;
+}
+
+
+@media(min-width:768px) {
+
+    header {
+       flex-direction: row;
+       justify-content: space-around;
+    }
+
+    .celular {
+        width: 30%;
+
+    }
+ 
+
 }
