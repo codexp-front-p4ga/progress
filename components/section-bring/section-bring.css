@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.bring {
+    background-color: whitesmoke;
+}
+.bring__content {
+    display: flex;
+    flex-direction: row;
+}
+.bring__content__group-1 {
+
+}
+.bring__content__group-2 {
+
+}
+.bring__content__phone {
+    
+}
+.bring__content__group-3 {
+
+}
+.bring__content__group-4 {
+
+}
