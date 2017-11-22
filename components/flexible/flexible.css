@@ -4,3 +4,64 @@
     outline: none;
     box-sizing: border-box;
 }
+
+.flexible{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f1f0;
+}
+
+.flexible__title{
+    width: 50%;
+    margin: 0 25%;
+    padding: 10px;
+    font-weight: 400;
+    color: #5b5b5b;
+}
+
+.flexible__text{
+    width: 70%;
+    margin: 0 12.5%;
+    color: #9a9fa2;
+    text-align: center;
+}
+
+.form{
+    width: 80%;
+    padding: 15px;
+    margin: 0 10%;
+}
+
+.form__input{
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.form__button{
+    width: 70px;
+    margin-left: -5px;
+    padding:5px;
+    background-color: #5dd682;
+    color: white;    
+    font-weight: 600;
+    border: none;
+    border-radius: 0 5px 5px 0px;
+}
+
+.twitter{
+    font-weight: 500;
+    background-color:#5dd682;
+    color: white;
+}
+
+.twitter__text{
+    width: 70%;
+    margin: 0 12.5%;
+    padding: 15px;
+    text-align: center;     
+}
+
+.twitter__link{
+    font-weight: bold;
+}
