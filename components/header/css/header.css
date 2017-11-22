@@ -1,0 +1,28 @@
+*, *::after, *::before {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+header {
+
+    background-color: #00d775;
+    color: white;
+}
+
+.logo {
+    border: none;
+}
+
+.escrita_header {
+
+    font-size: 30px;
+
+}
+
+.celular {
+
+    width: 50%;
+}
