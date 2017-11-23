@@ -124,7 +124,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     .flexible-platform__title{
         width: 16%;
         margin: 0 42%;
