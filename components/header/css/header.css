@@ -6,46 +6,59 @@ box-sizing: border-box;
 
 }
 
-header {
+header{
     width: 100%;
     background-color: #00d775;
+
+}
+
+.hero, header{
+    
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+.hero{
+    width: 65%;
 }
 
-.logo {
+.hero__logo {
     border: none;
-    width: 80%;
+    width: 100%;    
 }
 
-.escrita_header {
+.hero__descricao {
 
     font-size: 30px;
     text-align: center;
     margin-top: 5%;
+    padding: 0 45px;
 
 }
 
-.celular {
+.hero__imgmobile {
 
-    width: 80%;
+    width: 60%;
     margin-top: 10%;
 }
 
 
-@media(min-width:768px) {
+@media screen and (min-width: 768px){
 
     header {
        flex-direction: row;
        justify-content: space-around;
     }
-
-    .celular {
-        width: 30%;
+    .hero__imgmobile, .hero{
+        width: 45%;
 
     }
- 
+    .hero__descricao{
+        text-align: left;
+    }
+
+ /* 1024 2560 */
 
 }
