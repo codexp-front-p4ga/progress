@@ -12,23 +12,29 @@
 
 .flexible__title{
     width: 50%;
-    margin: 0 25%;
+    margin: 0 auto;
     padding: 10px;
     font-weight: 400;
     color: #5b5b5b;
+    display: flex;
+    flex-direction: row;
 }
 
 .flexible__text{
     width: 70%;
-    margin: 0 12.5%;
+    margin: 0 auto;
     color: #9a9fa2;
     text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .form{
-    width: 80%;
+    width: 79%;
     padding: 15px;
-    margin: 0 10%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .form__input{
@@ -40,7 +46,6 @@
 
 .form__button{
     width: 70px;
-    margin-left: -5px;
     padding:5px;
     background-color: #5dd682;
     color: white;    
@@ -69,7 +74,7 @@
 @media screen and (min-width: 768px){
     .flexible__title{
         width: 21%;
-        margin: 0 39.50%;
+        margin: 0 auto;
         padding: 10px;
         font-weight: 400;
         color: #5b5b5b;
@@ -77,15 +82,19 @@
 
     .flexible__text{
         width: 57%;
-        margin: 0 21.5%;
+        margin: 0 auto;
         color: #9a9fa2;
         text-align: center;
+        display: flex;
+        flex-direction: row;
     }
 
     .form{
-        width: 37.5%;
+        width: 35%;
         padding: 15px;
-        margin: 0 31.25% 5% 31.25%;
+        margin: 2% auto;
+        display: flex;
+        flex-direction: row;
     }
 
     .form__input{
@@ -97,7 +106,6 @@
     
     .form__button{
         width: 80px;
-        margin-left: -5px;
         padding: 10px;
         background-color: #5dd682;
         color: white;    
@@ -128,11 +136,45 @@
         margin: 0 20.5%;
         color: #9a9fa2;
         text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex: content;
     }
 
     .form{
         width: 26.5%;
         padding: 15px;
-        margin: 0 36.75% 5% 36.75%;
+        margin: 0 auto 5% auto;
+        display: flex;
+        flex-direction: row;   
     }
+}
+
+@media screen and (min-width:2560px){
+    .flexible__title{
+        width: 6.5%;
+        margin: 0 auto;
+        padding: 10px;
+        font-weight: 400;
+        color: #5b5b5b;
+    }
+
+    .flexible__text{
+        width: 23.5%;
+        margin: 0 auto;
+        color: #9a9fa2;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex: content;
+    }
+
+    .form{
+        width: 10.5%;
+        padding: 15px;
+        margin: 1.5% auto;
+        display: flex; 
+        flex-direction: row;
+    }
+    
 }
