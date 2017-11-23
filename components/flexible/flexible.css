@@ -31,7 +31,7 @@
 
 .form{
     width: 79%;
-    padding: 15px;
+    padding: 1rem;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -93,7 +93,7 @@
 
     .form{
         width: 35%;
-        padding: 15px;
+        padding: 0.7rem;
         margin: 2% auto;
         display: flex;
         flex-direction: row;
@@ -145,7 +145,7 @@
 
     .form{
         width: 26.5%;
-        padding: 15px;
+        padding: 1rem;
         margin: 0 auto 5% auto;
         display: flex;
         flex-direction: row;   
@@ -173,7 +173,7 @@
 
     .form{
         width: 10.5%;
-        padding: 15px;
+        padding: 0.7rem;
         margin: 1.5% auto;
         display: flex; 
         flex-direction: row;
