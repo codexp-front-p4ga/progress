@@ -3,26 +3,29 @@
     margin: 0;
     font-family: sans-serif;
 }
-.html {
-    width: 100%;
-}
+
 .bring {
     background-color: whitesmoke;
 }
-.bring h1 {
-    max-width: 20rem;
-    margin: 0 2rem;
+.bring__title {
+    display: flex;
+    justify-content: center;
+}
+.bring__title h1 {
+    align-self: center;
     padding: 2rem 0;
+    max-width: 20rem;
     font-size: 2rem;
     text-align: center;
 }
 .bring__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 .bring__icon {
     max-width: 4rem;
+    margin: 0 1rem;
 }
 .bring__content__group__icons-1 {
     display: flex;
@@ -50,13 +53,44 @@
     align-self: center;
 }
 @media (min-width: 768px) {
+    .bring__title h1 {
+        max-width: 30rem;
+        font-size: 3rem;
+    }
     .bring__content {
-    justify-content: center;
+        justify-content: center;
     }
     .bring__content__phone img {
-    max-width: 11rem;
+        max-width: 13rem;
     }
     .bring__icon {
-    max-width: 6rem;
+        max-width: 6rem;
+    }
+}
+@media (min-width: 992px) {
+    .bring__title h1 {
+        padding: 3rem 0;
+        max-width: 100%;
+    }
+    .bring__icon {
+        max-width: 8rem;
+    }
+    .bring__content__group{
+        align-self: center;
+    }
+    .bring__content__group__icons-1 {
+        flex-direction: row;
+    }
+    .bring__content__group__icons-2 {
+        flex-direction: row;
+    }
+    .bring__content__phone img {
+        max-width: 15rem;
+    }
+    .bring__content__group__icons-3 {
+        flex-direction: row;
+    }
+    .bring__content__group__icons-4 {
+        flex-direction: row;
     }
 }
