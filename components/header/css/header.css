@@ -29,7 +29,7 @@ header{
     width: 100%;    
 }
 
-.hero__descricao {
+.hero__description {
 
     font-size: 30px;
     text-align: center;
@@ -38,7 +38,7 @@ header{
 
 }
 
-.hero__imgmobile {
+.hero__mobile {
 
     width: 60%;
     margin-top: 10%;
@@ -50,6 +50,8 @@ header{
     header {
        flex-direction: row;
        justify-content: space-around;
+    
+
     }
     .hero__imgmobile, .hero{
         width: 45%;
